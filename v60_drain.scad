@@ -5,10 +5,17 @@ module outer() {
 }
 
 module drainage() {
-    rotate([-5,0,0])
-    translate([-50,-50,-10]) {
+    rotate([-5,-2,0])
+        translate([-50,-50,-10])
             cube([100,100,15]);
-    }
+
+    rotate([-5,2,0])
+        translate([-50,-50,-10])
+            cube([100,100,15]);
+
+    rotate([-7,0,0])
+        translate([-50,-50,-10])
+            cube([100,100,15]);
 }
 
 module ring() {
