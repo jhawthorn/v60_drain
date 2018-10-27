@@ -2,7 +2,7 @@ $fn = 128;
 
 difference() {
     //cylinder(r=105, h=20, center=true);
-    cylinder(r=50, h=20, center=true);
+    cylinder(r=42, h=20, center=true);
 
     cylinder(r=65/2, h=20);
 
