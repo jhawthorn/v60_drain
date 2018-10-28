@@ -1,7 +1,9 @@
 $fn = 128;
 
+height=20;
+
 module outer() {
-    cylinder(r=40, h=20);
+    cylinder(r=40, h=height);
 }
 
 module drainage_slope() {
@@ -25,10 +27,10 @@ module ring() {
         outer();
 
         translate([0,0,-1])
-            cylinder(r=65/2, h=22);
+            cylinder(r=65/2, h=height+2);
 
     translate([-7,30,-0.1])
-        cube([14, 50, 22]);
+        cube([14, 50, height+1]);
     }
 }
 
