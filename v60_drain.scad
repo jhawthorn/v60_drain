@@ -1,6 +1,6 @@
 $fn = 128;
 
-height=20;
+height=22;
 
 module outer() {
     cylinder(r=40, h=height);
